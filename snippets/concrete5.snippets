@@ -229,3 +229,11 @@ snippet intext
 
 snippet ap
 	'${1:sorrow}'=>$$1,
+snippet href
+	<a href="<?=${1:where to}?>"><?= ${2:link text}?></a>
+snippet hrefts
+	<a href="<?=${1:where to}?>"><?= t('${2:link text}')?></a>
+snippet vde
+	var_dump(${1:fuuuuu});exit;
+snippet logadd
+	Log::addEntry(t('${1:%s}',${2:what}),${3:why});
